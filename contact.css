@@ -1,0 +1,60 @@
+/* main .container{
+    background: red;
+    min-height:500px;
+} */
+main .container h2{
+    margin-top: 20px;
+    text-align: center;
+    font-size:20px ;
+}
+main .container form{
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 30px 10px;
+    /* min-height:500px; */
+    background:rgba(0, 0, 0, 0.507);
+    text-align: start;
+ /* display: flex;  */
+/* flex-wrap: wrap; */ 
+}
+main form {
+    font-size: 15px;
+}
+main form .input{
+margin-top: 5px;
+ margin-bottom: 20px;
+ border-radius: 10px;
+ min-height: 50px;
+ width: 95%;
+}
+main form .input_massege{
+    /* margin-top: 20px; */
+    margin-top: 5px;
+    min-height: 180px;
+}
+main form button{
+    color: white;
+    padding:10px 30px;
+    background: rgba(0, 0, 0, 0.664);
+}
+@media (max-width:992px){
+    main form .input{
+        margin-top: 1px;
+         margin-bottom: 10px;
+         border-radius: 7px;
+         min-height: 40px;
+        
+        }
+        main form .input_massege{
+            /* margin-top: 20px; */
+            margin-top: 1px;
+            min-height: 150px;
+        }
+    main form button{
+        
+        padding:5px 20px;
+        
+    }  
+}
+

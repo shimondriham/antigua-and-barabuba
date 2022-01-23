@@ -1,0 +1,131 @@
+
+  /* main{
+    min-height: 1000px;
+    color: wheat;
+  } */
+  main a{
+    text-decoration: none;
+}
+/* main .container{
+    max-width: 1100px;
+} */
+main .box_a1{
+    display: flex;
+    /* text-align: center; */
+    margin-top: 40px;
+}
+
+main .box_a2 h2{
+    color: black;
+    font-size: 25px;
+    /* text-shadow: -4px 4px rgba(179,179,179,.4), -3px 3px rgba(153,153,153,.2), -2px 2px rgba(179,179,179,.2), -1px 1px rgba(179,179,179,.2), 0px 0px rgba(128,128,128,.5), 1px -1px rgba(77,77,77,.6), 2px -2px rgba(77,77,77,.7), 3px -3px rgba(82,82,82,.8), 4px -4px rgba(77,77,77,.9), 5px -5px rgba(77,77,77,1); */
+    
+}
+main .box_a3{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+}
+
+main .box .box_b{
+    /* text-align: center; */
+    margin: 60px  0px;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.459);
+    /* padding: 10px; */
+    color: white;
+}
+/* main .box_b{
+    padding: 200px;
+} */
+main .box_b h3{
+    color: white;
+    font-size: 25px;
+}
+main .box_b h3:hover{
+    color: aqua;
+}
+main .box_b p{
+    padding: 30px;
+    font-size: 15px;
+}
+main  .box_b img{
+    max-width: 220px;
+    margin-top: -50px;
+    border-radius: 10px;
+}
+main .box{
+    min-height:600px ;
+    margin-bottom: 30px;
+    border-radius: 50px;
+}
+/* main .box h3{
+     color: black;
+    font-size: 50px;
+} */
+main .box1{  
+    background-image: url(images/Boutique_Hotel.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+main .box2{
+    background-image: url(images/Food.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+main .box2 h3{
+    color: white;
+}
+main .box3{
+    background-image: url(images/Blue\ Waters\ Resort\ &\ Spa.jpg) ;
+    background-size: cover;
+    background-position: center;    
+}
+main .box4{
+    background-image: url(images/Restaurant\ &\ Bar.jpg) ;
+    background-size: cover;
+    background-position: center;   
+}
+header .burger{
+    color: black;
+}
+@media (max-width:1200px){
+ main .box_a1{
+     display: none;
+ }
+ main .box_a3{
+     display: none;
+ }
+
+}
+@media (max-width:992px){
+    main .box{
+        border-radius: 100px;
+    }
+
+}
+@media (max-width:768px){
+    main .box_a2 h2{
+        color:black;
+        font-size: 20px;
+        font-family: 'Pattaya', sans-serif;
+        text-shadow:none;
+        /* margin-top: none; */
+          
+    }
+    main .box{
+        min-height:300px ;
+        border-radius: 20px;
+        padding: 0px; 
+       
+    }
+    /* main .box_a2 .box a {
+    padding: 0px;
+      
+    } */
+
+    main .box_a2 h3{
+         font-size: 15px;      
+    }
+
+}

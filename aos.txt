@@ -1,0 +1,25 @@
+; מעל הבוטסטראפ
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+; בסוף הבאדי
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+; מתחתיו 
+
+<script>
+        AOS.init();
+      </script>
+
+; או בןןינדאו אונלוד בגאבה
+
+   AOS.init();
+
+; זמן
+   data-aos-duration="3000"
+   
+; השהיה עד שיעבור 300 פיקסל
+   data-aos-offset="300"
+
+      
